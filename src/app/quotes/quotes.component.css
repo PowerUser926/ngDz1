@@ -1,0 +1,15 @@
+li {
+  list-style-type: none;
+}
+
+li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.marker {
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  background-color: #cecece;
+  text-align: center;
+}

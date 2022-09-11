@@ -1,0 +1,8 @@
+<section>
+  <p class="mb-1 ps-2 text-secondary">More information:</p>
+  <ul>
+    <li *ngFor="let link of links">
+      <a [href]="link" target="_blank">{{ link }}</a>
+    </li>
+  </ul>
+</section>
